@@ -2,3 +2,4 @@
 
 ### todo: 
       - show latest posts link on  every fleetx media platform
+      - show notification if latest post changed
