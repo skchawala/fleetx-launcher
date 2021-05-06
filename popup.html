@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fleetx Launcher</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        html ,body {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            padding: 0;
+
+        }
+        h1{
+            font-family: "Menlo" , monospace;
+            font-size: 12px;
+            font-weight: 400;
+            margin: 0;
+            color: #2f5876;
+        }
+        a:link,a:visited{
+            color: #000;
+            outline: 0;
+            text-decoration: none;
+        }
+        img{
+            width: 30px;
+            height: 30px;
+        }
+
+        .version{
+            color: #444;
+        }
+        .item{
+            opacity: 1;
+            transition: opacity 0.2s ease-in-out;
+        }
+        .item .fa-2x{
+            font-size: 28px;
+            color: #2f5876;
+        }
+        .item:hover{
+          opacity: .4;
+        }
+    </style>
+</head>
+<body>
+
+
+<div class="container-fluid py-2">
+    <div class="model-header">
+        <h1 class="logo d-flex align-items-center  flex-nowrap">
+            <img src="logos/fleetx.png"  alt="Fleetx Launcher" class="logo-icon mr-3"> <span class="text-nowrap"><span class="mr-2">Fleetx Launcher</span> <span class="version small">(1.0.0)</span></span>
+        </h1>
+    </div>
+    <hr/>
+    <div class="model-content">
+        <p class="small text-nowrap">Easily access Fleetx  Media content.</p>
+    </div>
+    <hr/>
+    <div class="model-icons mb-2">
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="mr-4 item">
+                <a href="https://www.fleetx.io/" title="fleetx.io" target="_blank">
+                    <i class="fa fa-globe fa-2x"></i>
+                </a>
+            </div>
+            <div  class="mr-4 item">
+                <a href="https://www.linkedin.com/company/fleetx-io/" title="linkedin" target="_blank">
+                    <i class="fa fa-linkedin fa-2x"></i>
+                </a>
+            </div>
+            <div  class="mr-4 item">
+                <a href="https://www.youtube.com/channel/UCwEhhoDfIYLpYjo0URxEQhA" title="youtube" target="_blank">
+                    <i class="fa fa-youtube fa-2x"></i>
+                </a>
+            </div>
+            <div  class="mr-4 item">
+                <a href="https://www.facebook.com/fleetx.io" title="facebook" target="_blank">
+                    <i class="fa fa-facebook fa-2x"></i>
+                </a>
+            </div>
+            <div  class="mr-4 item">
+                <a href="https://twitter.com/fleetx_io" title="twitter" target="_blank">
+                    <i class="fa fa-twitter fa-2x"></i>
+                </a>
+            </div>
+            <div  class="mr-4 item">
+                <a href="https://api.whatsapp.com/send?phone=+918076014730" title="whatsapp" target="_blank">
+                    <i class="fa fa-whatsapp fa-2x"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="popup.js"></script>
+</body>
+</html>

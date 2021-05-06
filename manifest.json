@@ -1,0 +1,16 @@
+{
+  "name": "Fleetx Launcher",
+  "description": "Easily access Fleetx and it's Media pages and more",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "icons": {
+    "128": "icon@128x128.png"
+  },
+  "action": {
+    "default_icon":"icon@19x19.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
