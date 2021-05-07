@@ -1,3 +1,4 @@
+chrome app store link: https://chrome.google.com/webstore/detail/fleetx-launcher/gmglmijppgpcnaffacccpnmjppnfcddp
 
 ## Chrome Extension:: Easily access  [fleetx.io](https://www.fleetx.io) and it's Media pages and more
 
